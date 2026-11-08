@@ -1,0 +1,70 @@
+# --- Secrets (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets/
+credentials*.json
+service-account*.json
+*.secret
+
+# --- Models, datasets, large artifacts ---
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.h5
+*.safetensors
+*.bin
+backend/models/*
+!backend/models/.gitkeep
+data/raw/
+data/liar/
+*.zip
+*.tar.gz
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# --- Node ---
+node_modules/
+frontend/dist/
+.vite/
+npm-debug.log*
+
+# --- Databases and local state ---
+*.sqlite
+*.sqlite3
+*.db
+pgdata/
+
+# --- Logs and uploads ---
+*.log
+logs/
+uploads/
+tmp/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.antigravity/
+.gemini/
