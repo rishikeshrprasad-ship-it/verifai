@@ -1,0 +1,468 @@
+{
+  "claims": [
+    {
+      "id": "claim-001",
+      "keywords": ["james webb", "jwst", "oldest galaxy", "jades-gs-z14-0", "astronomy"],
+      "text": "The James Webb Space Telescope has discovered the oldest known galaxy in the universe, dating back to 290 million years after the Big Bang.",
+      "category": "Science",
+      "ground_truth": "Verified True",
+      "reference_image_hash": "a1f0e4b8c2d6e8f1",
+      "evidence": [
+        {
+          "id": "ev-001-1",
+          "source": "NASA / ESA Official Release",
+          "domain": "nasa.gov",
+          "url": "https://www.nasa.gov/missions/webb/nasa-webb-observes-most-distant-known-galaxy/",
+          "title": "NASA's Webb Reaches New Milestone in Cosmic Dawn Exploration",
+          "snippet": "Spectroscopic confirmation of galaxy JADES-GS-z14-0 establishes a redshift of 14.32, dating it to roughly 290 million years after the Big Bang, breaking previous cosmic distance records.",
+          "author": "NASA Web Team",
+          "source_type": "official",
+          "published_date": "2024-05-30",
+          "domain_trust": 1.0,
+          "stance": "Supports",
+          "relevance_score": 0.94
+        },
+        {
+          "id": "ev-001-2",
+          "source": "Reuters Science",
+          "domain": "reuters.com",
+          "url": "https://www.reuters.com/technology/space/webb-telescope-finds-earliest-known-galaxy-defying-theories-2024-05-30/",
+          "title": "James Webb space telescope spots earliest known galaxy",
+          "snippet": "Astronomers said the James Webb Space Telescope observed the most distant galaxy yet seen, glowing brightly just 290 million years into cosmic history.",
+          "author": "Will Dunham",
+          "source_type": "wire_service",
+          "published_date": "2024-05-30",
+          "domain_trust": 0.98,
+          "stance": "Supports",
+          "relevance_score": 0.91
+        },
+        {
+          "id": "ev-001-3",
+          "source": "r/space",
+          "domain": "reddit.com",
+          "url": "https://reddit.com/r/space/comments/1d43jwebb_oldest_galaxy",
+          "title": "JWST just shattered its own distance record with JADES-GS-z14-0 confirmed at z=14.32",
+          "snippet": "Top comment by astrophysicist user: The surprising part is how luminous and massive it is. Theoretical models didn't anticipate galaxies forming this quickly or brightly after recombination.",
+          "author": "u/AstroGuy99",
+          "source_type": "social_discussion",
+          "published_date": "2024-05-31",
+          "domain_trust": 0.45,
+          "stance": "Supports",
+          "relevance_score": 0.86
+        }
+      ]
+    },
+    {
+      "id": "claim-002",
+      "keywords": ["garlic", "cure covid", "boiled garlic water", "coronavirus cure", "home remedy"],
+      "text": "Drinking a bowl of freshly boiled garlic water cures coronavirus infection within 24 hours.",
+      "category": "Health",
+      "ground_truth": "False / Fabricated",
+      "reference_image_hash": "f8e0c4b2a1938271",
+      "evidence": [
+        {
+          "id": "ev-002-1",
+          "source": "World Health Organization (WHO)",
+          "domain": "who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "title": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "snippet": "Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.",
+          "author": "WHO Science Council",
+          "source_type": "official",
+          "published_date": "2020-03-15",
+          "domain_trust": 1.0,
+          "stance": "Contradicts",
+          "relevance_score": 0.92
+        },
+        {
+          "id": "ev-002-2",
+          "source": "PolitiFact",
+          "domain": "politifact.com",
+          "url": "https://www.politifact.com/factchecks/2020/mar/18/facebook-posts/no-boiled-garlic-water-doesnt-cure-coronavirus/",
+          "title": "Pants on Fire: No, boiled garlic water does not cure coronavirus in 24 hours",
+          "snippet": "Viral social media posts claiming an 'old Chinese doctor' proved boiled garlic water cures COVID-19 have zero scientific backing. Medical researchers confirm no dietary concoction halts viral replication in a day.",
+          "author": "Samantha Putterman",
+          "source_type": "fact_checker",
+          "published_date": "2020-03-18",
+          "domain_trust": 0.96,
+          "stance": "Contradicts",
+          "relevance_score": 0.95
+        },
+        {
+          "id": "ev-002-3",
+          "source": "Agence France-Presse (AFP Fact Check)",
+          "domain": "factcheck.afp.com",
+          "url": "https://factcheck.afp.com/garlic-does-not-cure-coronavirus-say-experts",
+          "title": "Garlic does not cure the novel coronavirus, say medical specialists",
+          "snippet": "South China Morning Post and AFP fact-checkers debunked the claims originating from WeChat forwards. Doctors warn that overconsumption of garlic water can cause severe heartburn and throat irritation.",
+          "author": "AFP Fact Check Desk",
+          "source_type": "wire_service",
+          "published_date": "2020-03-12",
+          "domain_trust": 0.97,
+          "stance": "Contradicts",
+          "relevance_score": 0.89
+        },
+        {
+          "id": "ev-002-4",
+          "source": "r/Coronavirus",
+          "domain": "reddit.com",
+          "url": "https://reddit.com/r/Coronavirus/comments/flgarlic_myth_debunked",
+          "title": "Please stop forwarding the boiled garlic cure to elderly relatives on WhatsApp",
+          "snippet": "Family members are hoarding garlic and drinking scalding water. It is a fabricated remedy with zero clinical trials.",
+          "author": "u/MedStudentEcho",
+          "source_type": "social_discussion",
+          "published_date": "2020-03-20",
+          "domain_trust": 0.40,
+          "stance": "Contradicts",
+          "relevance_score": 0.81
+        }
+      ]
+    },
+    {
+      "id": "claim-003",
+      "keywords": ["ban petrol cars", "eu petrol ban 2025", "internal combustion engine", "zero emissions"],
+      "text": "The European Union has announced an immediate, total ban on all petrol and diesel cars starting in 2025.",
+      "category": "Policy",
+      "ground_truth": "Mostly False",
+      "reference_image_hash": "c4d2e8b0a1f59921",
+      "evidence": [
+        {
+          "id": "ev-003-1",
+          "source": "European Parliament News",
+          "domain": "europarl.europa.eu",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20230209IPR72913/fit-for-55-zero-co2-emissions-for-new-cars-and-vans-in-2035",
+          "title": "Fit for 55: zero CO2 emissions target for new cars and vans in 2035",
+          "snippet": "The European Parliament approved legislation mandating 100% emission reduction for new passenger vehicles starting in 2035, not 2025. Existing petrol cars may continue to drive past that date.",
+          "author": "EP Press Service",
+          "source_type": "official",
+          "published_date": "2023-02-14",
+          "domain_trust": 0.99,
+          "stance": "Contradicts",
+          "relevance_score": 0.93
+        },
+        {
+          "id": "ev-003-2",
+          "source": "BBC News",
+          "domain": "bbc.co.uk",
+          "url": "https://www.bbc.com/news/world-europe-64797072",
+          "title": "EU approves landmark law to end sales of new CO2-emitting cars by 2035",
+          "snippet": "Claims that petrol cars are banned starting next year misrepresent the timeline by a full decade. The EU target is 2035 for new sales, with exemptions for e-fuels negotiated by Germany.",
+          "author": "Jessica Parker",
+          "source_type": "mainstream_news",
+          "published_date": "2023-03-28",
+          "domain_trust": 0.94,
+          "stance": "Contradicts",
+          "relevance_score": 0.90
+        },
+        {
+          "id": "ev-003-3",
+          "source": "Full Fact UK",
+          "domain": "fullfact.org",
+          "url": "https://fullfact.org/online/eu-petrol-ban-2025-misleading/",
+          "title": "No, the EU is not banning all petrol cars in 2025",
+          "snippet": "Posts claiming petrol and diesel will be outlawed in 2025 confuse Euro 7 emissions standards with outright vehicle sales bans scheduled for 2035.",
+          "author": "Abbas Panjwani",
+          "source_type": "fact_checker",
+          "published_date": "2023-04-02",
+          "domain_trust": 0.95,
+          "stance": "Contradicts",
+          "relevance_score": 0.88
+        }
+      ]
+    },
+    {
+      "id": "claim-004",
+      "keywords": ["india 5g radiation", "birds falling", "telecom towers", "birds dying"],
+      "text": "5G mobile network testing in India caused thousands of migratory birds to drop dead from the sky.",
+      "category": "Technology & Health",
+      "ground_truth": "False / Fabricated",
+      "reference_image_hash": "3391b8a4f0c7e2d9",
+      "evidence": [
+        {
+          "id": "ev-004-1",
+          "source": "PIB Fact Check (Government of India)",
+          "domain": "pib.gov.in",
+          "url": "https://pib.gov.in/FactcheckDetails.aspx?Id=788",
+          "title": "PIB Fact Check: 5G spectrum testing has no correlation with bird deaths",
+          "snippet": "Department of Telecommunications clarified that non-ionizing radio frequencies used in 5G do not harm avian wildlife. Forensic wildlife necropsies in reported incidents identified organ failure due to avian flu.",
+          "author": "Press Information Bureau",
+          "source_type": "official",
+          "published_date": "2021-05-20",
+          "domain_trust": 0.96,
+          "stance": "Contradicts",
+          "relevance_score": 0.94
+        },
+        {
+          "id": "ev-004-2",
+          "source": "Boom Live",
+          "domain": "boomlive.in",
+          "url": "https://www.boomlive.in/fact-check/5g-testing-birds-dying-fact-check-13141",
+          "title": "Old images of bird deaths in Italy and Netherlands falsely linked to 5G tests in India",
+          "snippet": "Reverse image search reveals the widely shared photograph was taken in Rome in 2020 during New Year fireworks, and in The Hague in 2018 due to biological toxins.",
+          "author": "Karen Rebelo",
+          "source_type": "fact_checker",
+          "published_date": "2021-05-18",
+          "domain_trust": 0.94,
+          "stance": "Contradicts",
+          "relevance_score": 0.91
+        },
+        {
+          "id": "ev-004-3",
+          "source": "The Hindu",
+          "domain": "thehindu.com",
+          "url": "https://www.thehindu.com/sci-tech/technology/delhi-high-court-dismisses-plea-against-5g-rollout/article34729352.ece",
+          "title": "Delhi High Court dismisses plea on 5G health hazards, calls claims unscientific",
+          "snippet": "Court noted that petitioners provided zero scientific literature or evidentiary substantiation linking non-ionizing cellular radiation to bird mortality.",
+          "author": "Legal Bureau",
+          "source_type": "mainstream_news",
+          "published_date": "2021-06-04",
+          "domain_trust": 0.93,
+          "stance": "Contradicts",
+          "relevance_score": 0.85
+        }
+      ]
+    },
+    {
+      "id": "claim-005",
+      "keywords": ["secret ancient pyramid antarctica", "satellite pyramid antarctica", "snow pyramid"],
+      "text": "Satellite imagery revealed a man-made, 4-sided ancient pyramid hidden under the ice of Antarctica, proving an ancient civilization lived there.",
+      "category": "Conspiracy",
+      "ground_truth": "False / Fabricated",
+      "reference_image_hash": "ee88bb44221100ff",
+      "evidence": [
+        {
+          "id": "ev-005-1",
+          "source": "Live Science",
+          "domain": "livescience.com",
+          "url": "https://www.livescience.com/56985-antarctica-pyramid-mountain-explained.html",
+          "title": "That 'Pyramid' in Antarctica Is Just a Mountain, Geologists Say",
+          "snippet": "The structure in the Ellsworth Mountains is simply a nunatak—a natural mountain peak protruding through glacial ice. Pyramidal peaks form through freeze-thaw erosion, similar to the Matterhorn in the Alps.",
+          "author": "Jeanna Bryner",
+          "source_type": "science_journal",
+          "published_date": "2016-11-28",
+          "domain_trust": 0.92,
+          "stance": "Contradicts",
+          "relevance_score": 0.93
+        },
+        {
+          "id": "ev-005-2",
+          "source": "Snopes",
+          "domain": "snopes.com",
+          "url": "https://www.snopes.com/fact-check/pyramids-in-antarctica/",
+          "title": "Are There Pyramids in Antarctica?",
+          "snippet": "Geomorphologists confirm natural mountain erosion creates faceted pyramidal peaks. There are no archaeological remains or structural stonework beneath the snow.",
+          "author": "David Mikkelson",
+          "source_type": "fact_checker",
+          "published_date": "2016-12-01",
+          "domain_trust": 0.96,
+          "stance": "Contradicts",
+          "relevance_score": 0.95
+        }
+      ]
+    },
+    {
+      "id": "claim-006",
+      "keywords": ["who sugar guidelines", "free sugars 10 percent", "dietary sugar limit"],
+      "text": "The World Health Organization recommends limiting daily free sugar intake to less than 10% of total energy intake.",
+      "category": "Health",
+      "ground_truth": "Verified True",
+      "reference_image_hash": "99aa88bb77cc66dd",
+      "evidence": [
+        {
+          "id": "ev-006-1",
+          "source": "WHO Nutrition Guidelines",
+          "domain": "who.int",
+          "url": "https://www.who.int/publications/i/item/9789241549028",
+          "title": "Guideline: Sugars intake for adults and children",
+          "snippet": "WHO strongly recommends a reduced intake of free sugars throughout the lifecourse. In both adults and children, free sugars should be reduced to less than 10% of total daily energy intake.",
+          "author": "Department of Nutrition for Health and Development",
+          "source_type": "official",
+          "published_date": "2015-03-04",
+          "domain_trust": 1.0,
+          "stance": "Supports",
+          "relevance_score": 0.96
+        },
+        {
+          "id": "ev-006-2",
+          "source": "Harvard T.H. Chan School of Public Health",
+          "domain": "hsph.harvard.edu",
+          "url": "https://www.hsph.harvard.edu/nutritionsource/carbohydrates/added-sugar-in-the-diet/",
+          "title": "Added Sugar in the Diet and Recommended Dietary Guidelines",
+          "snippet": "Both the World Health Organization and Dietary Guidelines for Americans advise keeping added sugar intake below 10 percent of calories per day to mitigate cardiometabolic risk.",
+          "author": "Nutrition Source Editorial Team",
+          "source_type": "academic",
+          "published_date": "2022-01-15",
+          "domain_trust": 0.97,
+          "stance": "Supports",
+          "relevance_score": 0.91
+        }
+      ]
+    },
+    {
+      "id": "claim-007",
+      "keywords": ["quantum supremacy google", "sycamore quantum computer", "supercomputer benchmark"],
+      "text": "Google's Sycamore quantum processor performed in 200 seconds a computation that would take the world's fastest classical supercomputer 10,000 years.",
+      "category": "Technology",
+      "ground_truth": "Half True / Mixed",
+      "reference_image_hash": "22ff33ee44dd55cc",
+      "evidence": [
+        {
+          "id": "ev-007-1",
+          "source": "Nature",
+          "domain": "nature.com",
+          "url": "https://www.nature.com/articles/s41586-019-1666-5",
+          "title": "Quantum supremacy using a programmable superconducting processor",
+          "snippet": "Google researchers demonstrated that their Sycamore 53-qubit processor sampled random quantum circuits in approximately 200 seconds, estimating that Summit supercomputer would need roughly 10,000 years.",
+          "author": "Arute, F. et al.",
+          "source_type": "academic_peer_reviewed",
+          "published_date": "2019-10-23",
+          "domain_trust": 0.98,
+          "stance": "Supports",
+          "relevance_score": 0.93
+        },
+        {
+          "id": "ev-007-2",
+          "source": "IBM Research Blog",
+          "domain": "ibm.com",
+          "url": "https://www.ibm.com/blogs/research/2019/10/on-quantum-supremacy/",
+          "title": "On 'Quantum Supremacy' and Classical Simulation Benchmarks",
+          "snippet": "IBM researchers disputed Google's claim, proving that with secondary storage and improved tensor slicing techniques, the exact calculation could be executed on Summit in 2.5 days rather than 10,000 years.",
+          "author": "Edwin Pednault et al.",
+          "source_type": "industry_research",
+          "published_date": "2019-10-21",
+          "domain_trust": 0.88,
+          "stance": "Contradicts",
+          "relevance_score": 0.89
+        },
+        {
+          "id": "ev-007-3",
+          "source": "Quanta Magazine",
+          "domain": "quantamagazine.org",
+          "url": "https://www.quantamagazine.org/google-and-ibm-clash-over-quantum-supremacy-claim-20191023/",
+          "title": "Google and IBM Clash Over Quantum Supremacy Claim",
+          "snippet": "While Sycamore marked an experimental milestone, classical algorithm breakthroughs quickly shrank the speedup gap from millennia down to hours and minutes, showing the claim depends heavily on benchmark assumptions.",
+          "author": "Kevin Hartnett",
+          "source_type": "science_journal",
+          "published_date": "2019-10-23",
+          "domain_trust": 0.92,
+          "stance": "Neutral",
+          "relevance_score": 0.87
+        }
+      ]
+    },
+    {
+      "id": "claim-008",
+      "keywords": ["banana radioactive", "banana potassium 40", "banana radiation death"],
+      "text": "Eating two bananas a day exposes the human body to lethal levels of radiation over a decade.",
+      "category": "Health & Science",
+      "ground_truth": "False / Fabricated",
+      "reference_image_hash": "1122334455667788",
+      "evidence": [
+        {
+          "id": "ev-008-1",
+          "source": "EPA (US Environmental Protection Agency)",
+          "domain": "epa.gov",
+          "url": "https://www.epa.gov/radtown/natural-radioactivity-food",
+          "title": "Natural Radioactivity in Food: Potassium-40 in Bananas",
+          "snippet": "Bananas naturally contain potassium-40, but the body regulates potassium homeostasis strictly. Consuming bananas does not accumulate excess radioactive isotopes in tissues; excess potassium is routinely excreted.",
+          "author": "EPA Radiation Protection Division",
+          "source_type": "official",
+          "published_date": "2021-08-11",
+          "domain_trust": 0.99,
+          "stance": "Contradicts",
+          "relevance_score": 0.94
+        },
+        {
+          "id": "ev-008-2",
+          "source": "McGill Office for Science and Society",
+          "domain": "mcgill.ca",
+          "url": "https://www.mcgill.ca/oss/article/you-asked/are-bananas-radioactive",
+          "title": "Are Bananas Radioactive? The Banana Equivalent Dose Explained",
+          "snippet": "You would have to eat approximately 10,000,000 bananas at once to receive a fatal dose of radiation, which is physiologically impossible. Daily banana consumption is completely safe.",
+          "author": "Dr. Joe Schwarcz",
+          "source_type": "academic",
+          "published_date": "2019-04-12",
+          "domain_trust": 0.95,
+          "stance": "Contradicts",
+          "relevance_score": 0.91
+        }
+      ]
+    },
+    {
+      "id": "claim-009",
+      "keywords": ["obscure alien signal patagonia", "unverified alien broadcast", "radio beep 1942 patagonia"],
+      "text": "An obscure private radio station in Patagonia received continuous alien radio transmissions every Thursday during 1942.",
+      "category": "Conspiracy",
+      "ground_truth": "Unverified",
+      "reference_image_hash": "0000000000000000",
+      "evidence": [
+        {
+          "id": "ev-009-1",
+          "source": "Unverified Blog Post",
+          "domain": "mysterychronicles-blog.net",
+          "url": "https://mysterychronicles-blog.net/patagonia-signals",
+          "title": "The Forgotten Chilean Frequency of 1942",
+          "snippet": "A solitary radio hobbyist claimed to hear repetitive rhythmic beeps without station identification during World War II.",
+          "author": "Anonymous Blogger",
+          "source_type": "blog",
+          "published_date": "2021-09-01",
+          "domain_trust": 0.25,
+          "stance": "Neutral",
+          "relevance_score": 0.48
+        }
+      ]
+    },
+    {
+      "id": "claim-010",
+      "keywords": ["chandrayaan-3", "south pole moon", "isro lunar landing", "vikram lander"],
+      "text": "India's Chandrayaan-3 successfully accomplished the first soft landing of a robotic spacecraft near the lunar south pole.",
+      "category": "Science",
+      "ground_truth": "Verified True",
+      "reference_image_hash": "77cc44aa11bb88ee",
+      "evidence": [
+        {
+          "id": "ev-010-1",
+          "source": "ISRO Official Press Note",
+          "domain": "isro.gov.in",
+          "url": "https://www.isro.gov.in/Chandrayaan3_Details.html",
+          "title": "Chandrayaan-3 Lander Module Vikram Soft Lands on Lunar Surface",
+          "snippet": "On August 23, 2023, Vikram lander accomplished successful powered descent and touched down at coordinates 69.37 S, 32.35 E near the lunar south polar region.",
+          "author": "ISRO Telemetry Tracking and Command Network",
+          "source_type": "official",
+          "published_date": "2023-08-23",
+          "domain_trust": 1.0,
+          "stance": "Supports",
+          "relevance_score": 0.95
+        },
+        {
+          "id": "ev-010-2",
+          "source": "BBC News Science",
+          "domain": "bbc.com",
+          "url": "https://www.bbc.com/news/world-asia-india-66594520",
+          "title": "Chandrayaan-3: India makes historic landing on south pole of Moon",
+          "snippet": "India has become the first nation to land a spacecraft near the Moon's rugged south pole, days after Russia's Luna-25 crashed in the same region.",
+          "author": "Jonathan Amos",
+          "source_type": "mainstream_news",
+          "published_date": "2023-08-23",
+          "domain_trust": 0.94,
+          "stance": "Supports",
+          "relevance_score": 0.92
+        },
+        {
+          "id": "ev-010-3",
+          "source": "r/space",
+          "domain": "reddit.com",
+          "url": "https://reddit.com/r/space/comments/15z1chandrayaan3_landing",
+          "title": "Historic moment: ISRO's Chandrayaan-3 has landed on the Moon",
+          "snippet": "Tremendous achievement for the global space community. The south polar terrain is treacherous and contains critical water-ice deposits.",
+          "author": "u/OrbitMechanic",
+          "source_type": "social_discussion",
+          "published_date": "2023-08-23",
+          "domain_trust": 0.45,
+          "stance": "Supports",
+          "relevance_score": 0.88
+        }
+      ]
+    }
+  ]
+}

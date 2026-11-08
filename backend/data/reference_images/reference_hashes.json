@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ref-001",
+    "filename": "jwst_deep_field.png",
+    "title": "NASA James Webb JADES-GS-z14-0 Spectroscopic Capture",
+    "category": "Science / Verified",
+    "authenticity_status": "authentic",
+    "notes": "Authentic release imagery from STScI/NASA.",
+    "phash": "eaf0c00f9f079f41",
+    "dhash": "0191016141410911",
+    "ahash": "ffc1c1818181e1ff"
+  },
+  {
+    "id": "ref-002",
+    "filename": "boiled_garlic_cure_hoax.png",
+    "title": "Viral WhatsApp Forward: Boiled Garlic Cures Coronavirus",
+    "category": "Health / Hoax",
+    "authenticity_status": "debunked_hoax",
+    "notes": "Widely forwarded viral infographic with falsified Chinese medical board badge.",
+    "phash": "eae0c01c9d0f9dc7",
+    "dhash": "3189413141014941",
+    "ahash": "ffe1e1818181e1ff"
+  },
+  {
+    "id": "ref-003",
+    "filename": "antarctic_pyramid_fake.png",
+    "title": "Manipulated Satellite Photo of Antarctic Nunatak",
+    "category": "Conspiracy / Manipulated",
+    "authenticity_status": "manipulated",
+    "notes": "Airbrushed contrast to artificially sharpen natural mountain ridges into stepped pyramid.",
+    "phash": "eae0c01f9d1f9d41",
+    "dhash": "4181016141410941",
+    "ahash": "ffe1c1818181e1ff"
+  },
+  {
+    "id": "ref-004",
+    "filename": "5g_birds_falling_misattributed.png",
+    "title": "Misattributed Rome Starling Mortality Event",
+    "category": "Misleading / Recycled Media",
+    "authenticity_status": "recycled_out_of_context",
+    "notes": "Photograph from Rome fireworks tragedy misattributed to 5G tests in India.",
+    "phash": "eaf0c00e9d0f9fc4",
+    "dhash": "0191016141490565",
+    "ahash": "ffe1c1818181f1ff"
+  },
+  {
+    "id": "ref-005",
+    "filename": "chandrayaan3_touchdown.png",
+    "title": "ISRO Chandrayaan-3 Vikram Lander Thermal Cam",
+    "category": "Science / Verified",
+    "authenticity_status": "authentic",
+    "notes": "Official telemetry and descent imager frame from ISRO MOX-ISTRAC.",
+    "phash": "eae0c00f9d1f9d19",
+    "dhash": "1181014141410101",
+    "ahash": "fff181818181e1ff"
+  }
+]
