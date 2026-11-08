@@ -1,0 +1,114 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", "Noto Sans Devanagari", "Noto Sans Tamil", "Noto Sans Kannada", "Noto Sans Malayalam", "Noto Sans Telugu", sans-serif;
+    color: #0f172a;
+    background-color: #fdfbf7;
+  }
+
+  .dark body {
+    color: #FAF6F0;
+    background-color: #200C12;
+    background-image: radial-gradient(ellipse at top, rgba(74, 28, 44, 0.35) 0%, #200C12 55%, #15060B 100%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Source Serif 4', Lora, Georgia, 'Noto Serif Devanagari', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Malayalam', 'Noto Serif Telugu', serif;
+  }
+}
+
+/* Nocturnal Editorial Glassmorphism */
+.editorial-glass {
+  background: rgba(45, 20, 30, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(229, 193, 88, 0.22);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), inset 0 1px 1px rgba(255, 255, 255, 0.08);
+}
+
+.editorial-glass-interactive {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, box-shadow;
+  transform: translateZ(0);
+}
+.editorial-glass-interactive:hover {
+  transform: translateY(-2px) translateZ(0);
+  border-color: rgba(229, 193, 88, 0.55);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.65), 0 0 25px rgba(229, 193, 88, 0.14), inset 0 1px 2px rgba(255, 255, 255, 0.12);
+}
+
+/* WhatsApp Doodle Background Pattern simulation */
+.whatsapp-chat-bg {
+  background-color: #efeae2;
+  background-image: radial-gradient(#d3c7b8 0.75px, transparent 0.75px), radial-gradient(#d3c7b8 0.75px, #efeae2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* Custom Scrollbar for Evidence Deck and Bento Panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1B080E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4A1C2C;
+  border: 1px solid rgba(229, 193, 88, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6D1B26;
+}
+
+/* Smooth Focus Glow for Interactive Citations */
+.citation-highlight {
+  outline: 2px solid #E5C158;
+  background-color: rgba(229, 193, 88, 0.15) !important;
+  transition: all 0.25s ease-in-out;
+}
+
+/* Fade-in and Staggered Entrance Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes staggeredSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.animate-slideUp {
+  animation: staggeredSlideUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
